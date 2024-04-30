@@ -1,10 +1,7 @@
 package com.sales.model;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.util.UUID;
@@ -15,6 +12,7 @@ import java.util.UUID;
 @Builder
 @Getter
 @Setter
+@AllArgsConstructor
 @NoArgsConstructor
 public class Excursion {
 
